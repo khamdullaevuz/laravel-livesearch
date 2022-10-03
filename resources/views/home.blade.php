@@ -14,7 +14,7 @@
 
     <div class="card mt-3 mb-3">
         <div class="card-body">
-            <table class="table">
+            <table class="table table-striped table-hover">
                 <thead>
                 <tr>
                     <th scope="col">#</th>
@@ -39,7 +39,6 @@
         </div>
     </div>
 </div>
-<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 {{-- require jquery asset --}}
 @vite(['resources/js/app.js', 'resources/js/search.js'])
 </body>
