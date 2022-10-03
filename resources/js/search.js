@@ -7,7 +7,6 @@ $(document).ready(function() {
                 'search_text' : $(this).val(),
             },
             success: function (data) {
-                console.log(data);
                 $('#persons-data').html(data);
             }
         });
