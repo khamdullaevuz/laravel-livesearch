@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomeController::class, 'index']);
+Route::redirect('/', '/search');
 Route::post('/search', [HomeController::class, 'search']);
